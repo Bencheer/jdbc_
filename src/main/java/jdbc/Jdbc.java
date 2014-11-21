@@ -415,7 +415,7 @@ public class Jdbc {
             String query = "INSERT INTO messages (id, id_user, text_mess, time) VALUES(NULL," + getId() + ", '" + text + "', NULL)";
             snmt.executeUpdate(query);
         } catch (Exception e) {
-            System.out.println("Не удалось вставить данные! Error!");
+            System.out.println("Не удалось вставить данные!");
         }
     }
 
